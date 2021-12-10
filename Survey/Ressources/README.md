@@ -1,30 +1,33 @@
-# RecoverPassword solve
+# Survey solve
 
 Go to HOST/index.php?page=survey
 
 First, we see a classic survey.
 
-IMG
+<p>
+    <img src="https://user-images.githubusercontent.com/43633395/145650926-98f6f84e-1ad6-4623-a3dc-24d084ff4494.PNG" width=55% />
+</p>
+
+
+<!-- ![survey1](https://user-images.githubusercontent.com/43633395/145650926-98f6f84e-1ad6-4623-a3dc-24d084ff4494.PNG) -->
 
 So, he said `Youre voice is important for us !!!`. Try to inspect element.
 
-
-IMG
 <p>
-    <img src="https://user-images.githubusercontent.com/43633395/145496636-26d3d884-bac3-4f04-9694-c34580d828fe.png" width=200% />
+    <img src="https://user-images.githubusercontent.com/43633395/145650925-ba47259e-8776-4916-9d81-750f68919c56.PNG" width=150% />
 </p>
 
 We see two vulnerabilities :
-	- onchange of select attribute can suffer XSS attack
-	- the value of option attribute can modified ( make a overflow :) )
+
+- onchange of select attribute can suffer <a href="https://owasp.org/www-community/attacks/xss/"> XSS attack</a>
+- the value of option attribute can changed and make a overflow
 
 Let's try the second option.
 
 We got it!
 
-
-IMG
-![recover3](https://user-images.githubusercontent.com/43633395/145496689-834fb86a-88d5-469b-a834-cefe1ec94880.png)
+![survey3](https://user-images.githubusercontent.com/43633395/145650923-04bf2fac-7f9c-4141-bd82-2df035922bda.PNG)
 
 > <a href="../flag">flag</a> - <a href="../../level01">next</a>
+
 
