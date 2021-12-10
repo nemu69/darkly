@@ -1,11 +1,16 @@
 # Cookies solve
 
-What are Cookies :
+# What are Cookies :
 
 	Cookies are packets of data that a website uses to identify a visitor’s computer and use that visitor’s computer network.
 	Cookies remember certain information about a visitor for instance,
  	and will use this information if the user re-visits the site.
-#
+
+# How secure the cookies :
+
+	Two ways : with the Secure attribute and the HttpOnly attribute.
+	- A cookie with the Secure attribute is only sent to the server with an encrypted request over the HTTPS protocol.
+ 	- A cookie with the HttpOnly attribute is inaccessible to the JavaScript Document.cookie API; it's only sent to the server.
 
 First, we see the website cookies.
 
