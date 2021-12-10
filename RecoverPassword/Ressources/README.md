@@ -2,15 +2,17 @@
 
 Go to HOST/index.php?page=recover
 
-First, we see a recover password but without an e-mail/username input.
+First, we see a recover password, but without an e-mail/username input.
 
 ![recover1](https://user-images.githubusercontent.com/43633395/145496533-c7f2d818-d26b-496b-be40-e70982c3cfee.png)
 
-So, try to inspect element button Submit.
+So, try to inspect submit button element.
 
-![recover2](https://user-images.githubusercontent.com/43633395/145496636-26d3d884-bac3-4f04-9694-c34580d828fe.png)
+<p>
+    <img src="https://user-images.githubusercontent.com/43633395/145496636-26d3d884-bac3-4f04-9694-c34580d828fe.png" width=200% />
+</p>
 
-We see the webmaster e-mail, that's a vulnerability. Let's change this e-mail for print the flag.
+We see the `webmaster e-mail`, that's a vulnerability. Let's change this e-mail for print the flag.
 
 We got it!
 
