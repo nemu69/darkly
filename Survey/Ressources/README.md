@@ -8,9 +8,6 @@ First, we see a classic survey.
     <img src="https://user-images.githubusercontent.com/43633395/145650926-98f6f84e-1ad6-4623-a3dc-24d084ff4494.PNG" width=55% />
 </p>
 
-
-<!-- ![survey1](https://user-images.githubusercontent.com/43633395/145650926-98f6f84e-1ad6-4623-a3dc-24d084ff4494.PNG) -->
-
 So, he said `Youre voice is important for us !!!`. Try to inspect element.
 
 <p>
@@ -29,5 +26,3 @@ We got it!
 ![survey3](https://user-images.githubusercontent.com/43633395/145650923-04bf2fac-7f9c-4141-bd82-2df035922bda.PNG)
 
 > <a href="../flag">flag</a> - <a href="../../level01">next</a>
-
-
