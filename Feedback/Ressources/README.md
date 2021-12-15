@@ -9,9 +9,9 @@ Feedback, comments and login are know for a <a href="https://owasp.org/www-commu
 ![feed1 5](https://user-images.githubusercontent.com/43633395/145657803-9d512d09-b6d3-420f-832a-422a65c262f6.PNG)
 
 If the `onsubmit="return validate_form(this)"` protect against XSS attack that's ok else that's a vulnerability.
-Let's write an basic injection `alert(1)` on an input.
+Let's write an basic injection `alert(1);` on an input.
 
-![feed2](https://user-images.githubusercontent.com/43633395/145657799-ad05ac9f-594c-4816-94be-91e0c7a02800.PNG)
+![](https://user-images.githubusercontent.com/43633395/146208794-0b2c6a14-c4be-4eff-aee1-b789b824b95d.png)
 
 We got it!
 
