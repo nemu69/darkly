@@ -4,7 +4,7 @@ By clicking on the nsa logo you will find the address:
 
 ```HOST/index.php?page=media&src=nsa```
 
-Note that the image is loaded by a `src=nsa' identifier, so it is a [URI](https://www.guru99.com/url-vs-uri-difference.html).
+Note that the image is loaded by a `src=nsa` identifier, so it is a [URI](https://www.guru99.com/url-vs-uri-difference.html).
 
 With a URI you can access a resource without accessing its location, so using a [data-URI](https://developer.mozilla.org/en-US/docs/Web/HTTTP/Basics_of_HTTP/Data_URIs) will allow us to use a script.
 
